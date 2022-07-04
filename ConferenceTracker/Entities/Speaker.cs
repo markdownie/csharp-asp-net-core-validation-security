@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ConferenceTracker.Entities
 {
-    public class SpeakerIValidatableObject : IValidatableObject
+    public class Speaker : IValidatableObject
     {
         [Required]
         public int Id { get; set; }
